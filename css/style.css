@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap");
+
+/* General Element Styling */
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-weight: 300;
+}
+h2 {
+  font-weight: 600;
+}
+h5 {
+  font-weight: 600;
+}
+
+/* Background Colors */
+.blue {
+  background-color: #dadfea;
+}
+.white,
+.weekly .sectionMenu div {
+  background-color: #fff;
+}
+
+/* Navbar and Footer*/
+nav,
+footer {
+  background-color: #efa63f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+nav ul,
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+nav a,
+footer a {
+  color: black;
+  padding: 0px 9px;
+  text-decoration: none;
+  font-size: large;
+}
+nav li:not(:first-child),
+footer li:not(:first-child) {
+  border-left: 1px solid #000;
+}
+
+footer {
+  padding: 15px 40px;
+}
+
+/* Hero image and text */
+.hero {
+  background-size: cover;
+  background-position: left;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#heroText {
+  background-color: white;
+  margin: 75px;
+  padding: 10px 25px;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+.homeHero {
+  background-image: url(../images/hero-image.jpg);
+}
+
+/* Baseline Section Styles */
+.section {
+  padding: 20px 75px;
+}
+.sectionHead {
+  margin-bottom: 25px;
+}
+.sectionMenu {
+  display: flex;
+  justify-content: center;
+}
+.sectionMenu div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.sectionMenu img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+.sectionMenuText {
+  margin: 8px;
+}
+
+/* Specifics in Weekly Section */
+.weekly {
+  padding-bottom: 30px;
+}
+.weekly .sectionMenu img {
+  width: 180px;
+}
+/* Specifics in Where Section */
+.where .sectionMenu img {
+  padding: 6px 6px;
+  background-color: #dadfea;
+}
+
+/* RECIPE PAGE SPECIFICS */
+.recipeHero {
+  background-image: url(../images/bengal-burger.jpg);
+}
+
+.overview span {
+  font-weight: 600;
+}
+.overview ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.overview li {
+  padding: 0 20px;
+}
+.overview p {
+  margin: 5px;
+}
