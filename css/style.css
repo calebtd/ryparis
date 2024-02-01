@@ -92,7 +92,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 .sectionMenu img {
   width: 250px;
@@ -118,7 +118,7 @@ footer {
 
 /* RECIPE PAGE SPECIFICS */
 .recipeHero {
-  background-image: url(../images/bengal-burger.jpg);
+  background-image: url(../images/burger.jpg);
 }
 
 .overview span {
